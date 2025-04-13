@@ -1,7 +1,7 @@
 # macos_setup
 some initial configs for macos
 
-## MacOS Setup
+---
 
 #### homebrew
 
@@ -11,6 +11,8 @@ some initial configs for macos
   - ```touch ~/.zshrc```
   - add this line at the end of .zshrc: ```export PATH=/opt/homebrew/bin:$PATH```
   - ```source ~/.zshrc```
+
+---
 
 #### emacs
 - ```brew install --cask emacs```
@@ -73,21 +75,25 @@ plugins=(
 
 ---
 
-#### Python
+#### python
 - Install pyenv: ```brew install pyenv```
 
 ---
 
-#### continaers
+#### continairs
 - ```brew install podman```
   - https://podman.io/
 - ```brew install --cask docker```
   - https://www.docker.com/products/docker-desktop/
 
+---
+
 #### SQL DB
 - sequel pro: https://www.sequelpro.com/
 - dbeaver: https://dbeaver.io/
 - sqlite browser: https://sqlitebrowser.org/
+
+---
 
 #### Terminal tools
 - https://terminaltrove.com/categories/macos/
@@ -104,6 +110,8 @@ plugins=(
 - docs converter
   - https://pandoc.org/: ```brew install pandoc```
 
+---
+
 #### appstore and other utilities
 - productivity: color picker, unzip, brave browser (https://brave.com/), goodnotes, unsplash wallpaper, kindle
 - play: typist, elpy, piano companion
@@ -115,4 +123,4 @@ plugins=(
 - vpn: proton vpn (https://protonvpn.com/), nord vpn (https://nordvpn.com/)
 - programming: scratch (https://scratch.mit.edu/download)
 
-
+---
